@@ -6,7 +6,7 @@
   <!-- AI Recipe Generator Sitemap -->
   
   <url>
-    <loc>https://ai-recipe-generator.netlify.app/</loc>
+    <loc>https://recipeswithai.netlify.app/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -15,7 +15,7 @@
   <!-- Add more URLs as your app grows -->
   <!-- Example:
   <url>
-    <loc>https://ai-recipe-generator.netlify.app/about</loc>
+    <loc>https://recipeswithai.netlify.app/about</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
