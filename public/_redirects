@@ -1,0 +1,15 @@
+# Redirects for AI Recipe Generator
+
+# For Netlify and similar platforms
+
+# Redirect all routes to index.html for client-side routing
+
+/\* /index.html 200
+
+# Example: Redirect www to non-www (uncomment if needed)
+
+# https://www.ai-recipe-generator.com/* https://ai-recipe-generator.com/:splat 301!
+
+# Example: Force HTTPS (uncomment if needed)
+
+# http://ai-recipe-generator.com/* https://ai-recipe-generator.com/:splat 301!

@@ -3,41 +3,148 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
+    <meta name="theme-color" content="#6366f1" />
+
+    <!-- Primary Meta Tags -->
+    <meta
+      name="title"
+      content="AI Recipe Generator - Create Delicious Recipes from Your Ingredients"
+    />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Transform your ingredients into amazing recipes with AI. Get personalized cooking instructions, prep times, and servings. Create delicious meals with what you have!"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta
+      name="keywords"
+      content="AI recipe generator, recipe creator, cooking assistant, meal planner, ingredient-based recipes, AI cooking, recipe suggestions"
+    />
+    <meta name="author" content="Ashutosh Swamy" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://ai-recipe-generator.netlify.app/"
+    />
+    <meta
+      property="og:title"
+      content="AI Recipe Generator - Create Delicious Recipes from Your Ingredients"
+    />
+    <meta
+      property="og:description"
+      content="Transform your ingredients into amazing recipes with AI. Get personalized cooking instructions, prep times, and servings."
+    />
+    <meta
+      property="og:image"
+      content="https://ai-recipe-generator.netlify.app/android-chrome-512x512.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://ai-recipe-generator.netlify.app/"
+    />
+    <meta
+      property="twitter:title"
+      content="AI Recipe Generator - Create Delicious Recipes from Your Ingredients"
+    />
+    <meta
+      property="twitter:description"
+      content="Transform your ingredients into amazing recipes with AI. Get personalized cooking instructions, prep times, and servings."
+    />
+    <meta
+      property="twitter:image"
+      content="https://ai-recipe-generator.netlify.app/android-chrome-512x512.png"
+    />
+
+    <!-- Favicons -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="%PUBLIC_URL%/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="%PUBLIC_URL%/favicon-16x16.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="%PUBLIC_URL%/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Google Fonts - Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Security Headers -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Mobile Web App Capable -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="Recipe Generator" />
+
+    <title>
+      AI Recipe Generator - Create Delicious Recipes from Your Ingredients
+    </title>
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "AI Recipe Generator",
+        "url": "https://ai-recipe-generator.netlify.app",
+        "description": "Transform your ingredients into amazing recipes with AI-powered recipe generation",
+        "applicationCategory": "LifestyleApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Ashutosh Swamy",
+          "url": "https://github.com/ashutoshswamy"
+        }
+      }
+    </script>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>
+      <div
+        style="
+          padding: 2rem;
+          text-align: center;
+          font-family: Arial, sans-serif;
+        "
+      >
+        <h1>⚠️ JavaScript Required</h1>
+        <p>You need to enable JavaScript to use the AI Recipe Generator.</p>
+        <p>
+          Please enable JavaScript in your browser settings and reload the page.
+        </p>
+      </div>
+    </noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
