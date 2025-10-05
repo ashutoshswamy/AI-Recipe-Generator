@@ -16,68 +16,7 @@ An intelligent recipe generator powered by Google's Gemini AI that creates delic
 - **Beautiful UI**: Modern, responsive design with smooth animations
 - **Easy to Use**: Simple and intuitive interface
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn
-- A Google Gemini API key
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone <your-repo-url>
-   cd ai-recipe-generator
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Set up your environment variables:
-
-   ```bash
-   cp .env.example .env
-   ```
-
-4. Get your Gemini API key:
-
-   - Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
-   - Create a new API key
-   - Copy the API key
-
-5. Add your API key to `.env`:
-
-   ```
-   REACT_APP_GEMINI_API_KEY=your_actual_api_key_here
-   ```
-
-6. Start the development server:
-
-   ```bash
-   npm start
-   ```
-
-7. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## 🎯 How to Use
-
-1. **Enter Ingredients**: Type in the ingredients you have available (comma-separated)
-
-   - Example: `chicken, tomatoes, garlic, pasta, cheese`
-
-2. **Select Number of Recipes**: Choose how many recipes you want (1-10)
-
-3. **Generate**: Click the "Generate Recipes" button
-
-4. **Enjoy**: Browse through your personalized recipes with complete instructions!
-
-## 🛠️ Built With
+## ️ Built With
 
 - **React** - Frontend framework
 - **Google Gemini AI** - AI-powered recipe generation
@@ -100,10 +39,6 @@ ai-recipe-generator/
 ├── package.json                     # Dependencies
 └── README.md                        # This file
 ```
-
-## 🔑 Environment Variables
-
-- `REACT_APP_GEMINI_API_KEY`: Your Google Gemini API key (required)
 
 ## 🎨 Features in Detail
 
@@ -132,31 +67,6 @@ This project is licensed under the MIT License.
 
 - Google Gemini AI for powering the recipe generation
 - Create React App for the initial project setup
-
-## 🌐 Deployment
-
-### Deploy to Netlify
-
-1. Push your code to GitHub
-2. Connect your repository to Netlify
-3. Add your environment variable in Netlify dashboard:
-   - Key: `REACT_APP_GEMINI_API_KEY`
-   - Value: Your Gemini API key
-4. Deploy!
-
-### Deploy to Vercel
-
-1. Push your code to GitHub
-2. Import your repository in Vercel
-3. Add your environment variable in Vercel dashboard
-4. Deploy!
-
-## � Security
-
-- Never commit your `.env` file to version control
-- Keep your API key secure and rotate it regularly
-- Use environment variables for all sensitive data
-- The app includes CSP headers for enhanced security
 
 ## 🚀 Performance Optimizations
 
