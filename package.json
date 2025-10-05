@@ -2,7 +2,7 @@
   "name": "ai-recipe-generator",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://recipeswithai.netlify.app",
+  "homepage": "https://recipesbyai.netlify.app",
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "@testing-library/dom": "^10.4.1",

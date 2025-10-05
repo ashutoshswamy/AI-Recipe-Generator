@@ -2,7 +2,7 @@
 
 An intelligent recipe generator powered by Google's Gemini AI that creates delicious recipes based on the ingredients you have at home.
 
-🌐 **Live Demo:** [https://recipeswithai.netlify.app](https://recipeswithai.netlify.app)
+🌐 **Live Demo:** [https://recipesbyai.netlify.app](https://recipesbyai.netlify.app)
 
 ## ✨ Features
 
