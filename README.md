@@ -2,8 +2,6 @@
 
 An intelligent recipe generator powered by Google's Gemini AI that creates delicious recipes based on the ingredients you have at home.
 
-🌐 **Live Demo:** [https://recipesbyai.netlify.app](https://recipesbyai.netlify.app)
-
 ## ✨ Features
 
 - **Ingredient-Based Recipe Generation**: Enter your available ingredients and get personalized recipes
@@ -15,79 +13,110 @@ An intelligent recipe generator powered by Google's Gemini AI that creates delic
   - Cooking time and servings information
 - **Beautiful UI**: Modern, responsive design with smooth animations
 - **Easy to Use**: Simple and intuitive interface
-
-## ️ Built With
-
-- **React** - Frontend framework
-- **Google Gemini AI** - AI-powered recipe generation
-- **CSS3** - Styling and animations
-
-## 📁 Project Structure
-
-```
-ai-recipe-generator/
-├── src/
-│   ├── components/
-│   │   ├── RecipeGenerator.js      # Main component
-│   │   └── RecipeGenerator.css     # Component styles
-│   ├── services/
-│   │   └── geminiService.js        # Gemini API integration
-│   ├── App.js                       # Root component
-│   ├── App.css                      # Global styles
-│   └── index.js                     # Entry point
-├── .env.example                     # Environment variables template
-├── package.json                     # Dependencies
-└── README.md                        # This file
-```
-
-## 🎨 Features in Detail
-
-### Recipe Generation
-
-- Uses Google's Gemini Pro model for high-quality recipe generation
-- Intelligent parsing of ingredients and creation of complete recipes
-- Fallback mechanisms for robust error handling
-
-### User Interface
-
-- Responsive design that works on desktop and mobile
-- Loading indicators for better user experience
-- Error messages with helpful feedback
-- Beautiful gradient backgrounds and smooth animations
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
+- **Error Handling**: Robust error handling with helpful user feedback
+- **Performance Optimized**: Fast loading and smooth user experience
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests.
+We welcome contributions from the community! Here's how you can help:
+
+### How to Contribute
+
+1. **Fork the repository**
+2. **Create a feature branch** (`git checkout -b feature/amazing-feature`)
+3. **Commit your changes** (`git commit -m 'Add some amazing feature'`)
+4. **Push to the branch** (`git push origin feature/amazing-feature`)
+5. **Open a Pull Request**
+
+### Guidelines
+
+- Follow the existing code style and conventions
+- Write clear, descriptive commit messages
+- Test your changes thoroughly before submitting
+- Update documentation as needed
+- Be respectful and constructive in discussions
+
+### Areas for Contribution
+
+- Bug fixes and improvements
+- New features and enhancements
+- Documentation improvements
+- Performance optimizations
+- UI/UX improvements
+
+## 🐛 Issues
+
+### Reporting Issues
+
+If you encounter any problems or have suggestions for improvements, please:
+
+1. **Check existing issues** to avoid duplicates
+2. **Use the issue templates** when available
+3. **Provide detailed information** including:
+   - Steps to reproduce the issue
+   - Expected vs actual behavior
+   - Browser and device information
+   - Screenshots or error messages (if applicable)
+
+### Issue Labels
+
+- `bug` - Something isn't working correctly
+- `enhancement` - New feature or improvement request
+- `documentation` - Documentation related issues
+- `good first issue` - Good for newcomers to the project
+- `help wanted` - Extra attention needed from contributors
 
 ## 📝 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
-## 🙏 Acknowledgments
+### MIT License Summary
 
-- Google Gemini AI for powering the recipe generation
-- Create React App for the initial project setup
+- ✅ Commercial use allowed
+- ✅ Modification allowed
+- ✅ Distribution allowed
+- ✅ Private use allowed
+- ❌ No warranty provided
+- ❌ No liability assumed
 
-## 🚀 Performance Optimizations
+For the full license text, see the [LICENSE](LICENSE) file in the repository.
 
-- Responsive design for all device types
-- Optimized CSS with media queries for mobile, tablet, and desktop
-- Touch-friendly interfaces for mobile devices
-- Reduced motion support for accessibility
-- Print-friendly styles for recipe printing
-- Service worker ready for PWA capabilities
+## 💻 Developer Information
 
-## �📞 Support
+### About the Developer
 
-If you encounter any issues or have questions, please open an issue on GitHub.
+**Ashutosh Swamy** - Full Stack Developer & AI Enthusiast
 
-## 👨‍💻 Developer
+### Connect with Me
 
-**Ashutosh Swamy**
+- **GitHub**: [@ashutoshswamy](https://github.com/ashutoshswamy)
+- **LinkedIn**: [ashutoshswamy](https://linkedin.com/in/ashutoshswamy)
+- **Portfolio**: [Your Portfolio Website]
+- **Email**: [Your Email Address]
 
-- GitHub: [@ashutoshswamy](https://github.com/ashutoshswamy)
-- LinkedIn: [ashutoshswamy](https://linkedin.com/in/ashutoshswamy)
+### Skills & Technologies
+
+- Frontend: React, JavaScript, HTML5, CSS3
+- Backend: Node.js, Python
+- AI/ML: Google Gemini AI, OpenAI APIs
+- Tools: Git, VS Code, npm/yarn
+
+### Usage Rights
+
+- The code may be used, modified, and distributed under the MIT License terms
+- Commercial use is permitted with proper attribution
+- No warranty is provided with this software
+
+### Attribution
+
+When using or referencing this project, please provide appropriate credit:
+
+```
+AI Recipe Generator by Ashutosh Swamy
+GitHub: https://github.com/ashutoshswamy/ai-recipe-generator
+```
 
 ---
 
-Made with ❤️ by Ashutosh Swamy
+**Made with ❤️ by Ashutosh Swamy**
