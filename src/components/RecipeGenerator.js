@@ -10,7 +10,6 @@ import {
   Utensils,
   Github,
   Linkedin,
-  Heart,
 } from "lucide-react";
 import "./RecipeGenerator.css";
 
@@ -191,8 +190,7 @@ const RecipeGenerator = () => {
         <footer className="app-footer">
           <div className="footer-content">
             <p className="footer-text">
-              Made with <Heart size={16} className="heart-icon" /> by{" "}
-              <strong>Ashutosh Swamy</strong>
+              Made by <strong>Ashutosh Swamy</strong>
             </p>
             <div className="social-links">
               <a

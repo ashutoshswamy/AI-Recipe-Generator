@@ -119,4 +119,4 @@ GitHub: https://github.com/ashutoshswamy/ai-recipe-generator
 
 ---
 
-**Made with ❤️ by Ashutosh Swamy**
+**Made by Ashutosh Swamy**
