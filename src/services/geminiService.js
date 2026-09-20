@@ -15,9 +15,14 @@ const genAI = API_KEY ? new GoogleGenerativeAI(API_KEY) : null;
  * Generates recipes based on provided ingredients
  * @param {string} ingredients - Comma-separated list of ingredients
  * @param {number} numberOfRecipes - Number of recipes to generate (1-10)
+ * @param {string} mealType - Meal the recipes are for (e.g. Breakfast, Lunch, Dinner)
  * @returns {Promise<Array>} Array of recipe objects
  */
-export const generateRecipes = async (ingredients, numberOfRecipes = 3) => {
+export const generateRecipes = async (
+  ingredients,
+  numberOfRecipes = 3,
+  mealType = "Dinner"
+) => {
   if (!genAI) {
     throw new Error(
       "Gemini API is not configured. Please add your API key to the .env file."
@@ -26,16 +31,17 @@ export const generateRecipes = async (ingredients, numberOfRecipes = 3) => {
 
   try {
     // Use the gemini-pro model
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-3.5-flash-lite" });
 
     // Create a detailed prompt for recipe generation
-    const prompt = `You are a professional chef and recipe creator. Generate ${numberOfRecipes} unique and delicious recipes using the following ingredients: ${ingredients}.
+    const prompt = `You are a professional chef and recipe creator. Generate ${numberOfRecipes} unique and delicious ${mealType} recipes using the following ingredients: ${ingredients}.
 
 Requirements:
-1. Each recipe should use at least some of the provided ingredients
-2. You can suggest additional common ingredients if needed to make the recipe complete
-3. Provide detailed, step-by-step instructions
-4. Include cooking time and servings information
+1. Each recipe must be suitable for ${mealType} specifically, in portion size, richness, and preparation time
+2. Each recipe should use at least some of the provided ingredients
+3. You can suggest additional common ingredients if needed to make the recipe complete
+4. Provide detailed, step-by-step instructions
+5. Include cooking time and servings information
 
 Please format your response as a JSON array with the following structure for each recipe:
 [

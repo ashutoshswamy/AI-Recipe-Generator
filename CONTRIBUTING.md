@@ -104,6 +104,7 @@ Feel free to reach out:
 - Open an issue for discussion
 - Contact via GitHub: [@ashutoshswamy](https://github.com/ashutoshswamy)
 - Connect on LinkedIn: [ashutoshswamy](https://linkedin.com/in/ashutoshswamy)
+- Reach out on X: [@ashutoshswamy_](https://x.com/ashutoshswamy_)
 
 ## License
 

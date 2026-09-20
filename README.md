@@ -5,6 +5,7 @@ An intelligent recipe generator powered by Google's Gemini AI that creates delic
 ## ✨ Features
 
 - **Ingredient-Based Recipe Generation**: Enter your available ingredients and get personalized recipes
+- **Meal Selection**: Pick the meal (Breakfast, Brunch, Lunch, Dinner, Snack, Dessert) and recipes are tailored to it
 - **Customizable Output**: Choose how many recipes you want to generate (1-10)
 - **Detailed Recipes**: Each recipe includes:
   - Recipe name and description
@@ -92,8 +93,8 @@ For the full license text, see the [LICENSE](LICENSE) file in the repository.
 
 - **GitHub**: [@ashutoshswamy](https://github.com/ashutoshswamy)
 - **LinkedIn**: [ashutoshswamy](https://linkedin.com/in/ashutoshswamy)
-- **Portfolio**: [Your Portfolio Website]
-- **Email**: [Your Email Address]
+- **X**: [@ashutoshswamy_](https://x.com/ashutoshswamy_)
+- **Portfolio**: [ashutoshswamy.in](https://ashutoshswamy.in)
 
 ### Skills & Technologies
 
