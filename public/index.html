@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=5"
     />
-    <meta name="theme-color" content="#6366f1" />
+    <meta name="theme-color" content="#f2f5ee" />
 
     <!-- Primary Meta Tags -->
     <meta
@@ -76,14 +76,6 @@
     />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-    <!-- Google Fonts - Preconnect for performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-
     <!-- Security Headers -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
@@ -95,6 +87,14 @@
       content="black-translucent"
     />
     <meta name="apple-mobile-web-app-title" content="Recipe Generator" />
+
+    <script>
+      try {
+        var t = localStorage.getItem("theme");
+        if (t === "light" || t === "dark")
+          document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    </script>
 
     <title>
       AI Recipe Generator - Create Delicious Recipes from Your Ingredients
